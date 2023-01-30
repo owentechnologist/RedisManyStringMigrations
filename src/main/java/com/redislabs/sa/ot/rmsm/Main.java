@@ -29,7 +29,7 @@ public class Main {
         String userName = "default";
         String password = "";
         int maxConnections = 2;
-        long writeSleepTimeMillis =100l;
+        long writeSleepTimeMillis =500l;
 
         if (args.length > 0) {
             argList = new ArrayList<>(Arrays.asList(args));

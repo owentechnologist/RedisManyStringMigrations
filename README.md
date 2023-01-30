@@ -18,21 +18,15 @@ The program reads a random key from each of the databases every time something n
 <br/>Below is a bit of output from the program while it is busy: 
 
 ```
-LOOP COUNTER == 9
-                
-                Reading new Data From DataBase_A: 1675099228059blah : A TTL == 122
-Reading older Data From DataBase_B: 1675099195372blah : B TTL == 89
-Reading oldest Data From DataBase_C: 1675099161002blah : C TTL == 55
-                Reading new Data From DataBase_A: 1675099227766blah : A TTL == 121
-Reading older Data From DataBase_B: 1675099215720blah : B TTL == 109
-Reading oldest Data From DataBase_C: 1675099143882blah : C TTL == 37
-                Reading new Data From DataBase_A: 1675099106857blah : A TTL == 0
-Reading older Data From DataBase_B: 1675099202490blah : B TTL == 96
-Reading oldest Data From DataBase_C: 1675099117127blah : C TTL == 10
-                Reading new Data From DataBase_A: MOST_RECENT_ENTRY_DATE_TIME : 01-30-2023 11:20:28 TTL == -1
-Reading older Data From DataBase_B: 1675099216738blah : B TTL == 110
-Reading oldest Data From DataBase_C: 1675099153253blah : C TTL == 46
-                Reading new Data From DataBase_A: 1675099228846blah : A TTL == 122
-Reading older Data From DataBase_B: 1675099181974blah : B TTL == 75
-Reading oldest Data From DataBase_C: 1675099135631blah : C TTL == 28
+LOOP COUNTER == 3
+                Reading new Data From DataBase_A: 1675115480020blah : A TTL == 121
+Reading older Data From DataBase_B: 1675115431527blah : B TTL == 73
+Reading oldest Data From DataBase_C: 1675115398703blah : C TTL == 40
+                Reading new Data From DataBase_A: 1675115480020blah : A TTL == 121
+Reading older Data From DataBase_B: 1675115423084blah : B TTL == 64
+Reading oldest Data From DataBase_C: 1675115391792blah : C TTL == 33
+                Reading new Data From DataBase_A: 1675115481079blah : A TTL == 121
+Reading older Data From DataBase_B: 1675115420951blah : B TTL == 61
+Reading oldest Data From DataBase_C: 1675115384933blah : C TTL == 25
+
 ```
