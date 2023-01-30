@@ -15,7 +15,7 @@ mvn compile exec:java -Dexec.cleanupDaemonThreads=false -Dexec.args="--hosta myh
 The program writes entries to one of the databases for the specified write duration, before switching to the next instance.
 
 The program reads a random key from each of the databases every time something new is written. 
-A bit of output from the program while it is busy: 
+<br/>Below is a bit of output from the program while it is busy: 
 
 ```
 LOOP COUNTER == 9
