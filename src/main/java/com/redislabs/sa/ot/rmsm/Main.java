@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> argList = null;
         long writingPeriodSecs = 60;//data is written for 1 min in each DB by default
-        int dataTTLSecs = 122;//data lives for 3 minutes in the system by default before being replaced by newer data
+        int dataTTLSecs = 122;//data lives for ~2 minutes in the system by default before being replaced by newer data
         int programDurationMinutes = 10;//10 min default
         String hostA = "localhost";
         int portA = 6379;
