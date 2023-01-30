@@ -19,18 +19,7 @@ The program reads a random key from each of the databases every time something n
 
 ```
 LOOP COUNTER == 9
-                Reading new Data From DataBase_A: 1675099106229blah : A TTL == 0
-Reading older Data From DataBase_B: 1675099168718blah : B TTL == 63
-Reading oldest Data From DataBase_C: 1675099147343blah : C TTL == 42
-                Reading new Data From DataBase_A: 1675099105957blah : A TTL == 0
-Reading older Data From DataBase_B: 1675099186995blah : B TTL == 81
-Reading oldest Data From DataBase_C: 1675099155396blah : C TTL == 49
-                Reading new Data From DataBase_A: 1675099106857blah : A TTL == 1
-Reading older Data From DataBase_B: 1675099188279blah : B TTL == 82
-Reading oldest Data From DataBase_C: 1675099156438blah : C TTL == 50
-                Reading new Data From DataBase_A: 1675099106481blah : A TTL == 0
-Reading older Data From DataBase_B: 1675099211356blah : B TTL == 105
-Reading oldest Data From DataBase_C: 1675099147207blah : C TTL == 41
+                
                 Reading new Data From DataBase_A: 1675099228059blah : A TTL == 122
 Reading older Data From DataBase_B: 1675099195372blah : B TTL == 89
 Reading oldest Data From DataBase_C: 1675099161002blah : C TTL == 55
